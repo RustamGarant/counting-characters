@@ -22,7 +22,7 @@ mvn clean package
 4.Запустите приложение
 java -jar target/counting-characters-api-1.0.jar
 
-Приложение будет доступно по адресу http://localhost:8080.
+Приложение будет доступно по адресу http://localhost:8080
 
 Формат запроса
 Эндпоинт для вычисления частоты встречи символов:
@@ -31,7 +31,7 @@ POST /api/character-frequency
 Тело запроса должно содержать JSON объект с полем inputString, которое представляет собой строку, для которой вы хотите вычислить частоту символов.
 
 Пример запроса:
-localhost:8080/api/v1/algo
+localhost:8080/api/v1/algo   
 Body: sssttrrrrttt
 
 Формат ответа
